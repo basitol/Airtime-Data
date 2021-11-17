@@ -1,0 +1,389 @@
+@media only screen and (min-width: 640px) {
+  body {
+    display: none;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #f9f9ff;
+}
+
+header {
+  height: 132px;
+  width: 100vw;
+  padding: 19px 15px;
+  border-radius: 0 0 15px 15px;
+  background: #5f22cb;
+  font-family: "DM Sans", sans-serif;
+}
+
+header nav {
+  margin-left: 6px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+header nav a {
+  margin-right: 20px;
+}
+
+header .data-opt {
+  display: none;
+}
+
+header .airtime-opt {
+  height: auto;
+  margin-top: 46px;
+  padding-bottom: 70px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+header .airtime-opt .airtime {
+  width: 100%;
+  height: 64px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+header .airtime-opt .airtime .buy-airtime-1 {
+  width: 50%;
+  padding-top: 20px;
+  background: #c53b9e21;
+  color: #c53b9f;
+}
+
+header .airtime-opt .airtime .buy-data-1 {
+  width: 50%;
+  padding-top: 20px;
+  background: #ffffff;
+  border-top-right-radius: 10px;
+  color: #6123cc41;
+}
+
+header .airtime-opt .line {
+  height: 1px;
+  width: 100%;
+  background-color: #b3a9c521;
+}
+
+header .airtime-opt .select .select-text {
+  margin-top: 22px;
+}
+
+header .airtime-opt .select .select-text h6 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #6023cc;
+}
+
+header .airtime-opt .select__network .network-cards {
+  margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .airtime-opt .select__network .network-cards .network-card {
+  width: 47px;
+  height: 47px;
+  margin-right: 15px;
+}
+
+header .airtime-opt .select__network .network-cards .network-card img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+header .airtime-opt .select__network .network-cards .mtn {
+  background-color: #fdc528;
+  border-radius: 50%;
+}
+
+header .airtime-opt .form {
+  margin: 36px 29px 0;
+}
+
+header .airtime-opt .form__input {
+  position: relative;
+  height: 58px;
+  width: 100%;
+  border: 1px solid #b3a9c5;
+  border-radius: 5px;
+}
+
+header .airtime-opt .form__input .amt-inp {
+  padding-left: 30px;
+}
+
+header .airtime-opt .form__input input {
+  height: 100%;
+  width: 83%;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  color: #7a83a1;
+}
+
+header .airtime-opt .form__input label {
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  padding: 6px;
+  background: #ffffff;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  color: #4c4079;
+}
+
+header .airtime-opt .form__input .naira {
+  position: absolute;
+  top: 10;
+  left: 10px;
+}
+
+header .airtime-opt .form__input img {
+  position: absolute;
+  top: 18px;
+  right: 16px;
+}
+
+header .airtime-opt .form .amount {
+  margin: 20px 0;
+}
+
+header .airtime-opt .form .amount h4 {
+  margin-bottom: 8px;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  color: #6023cc;
+  font-weight: bold;
+}
+
+header .airtime-opt .form .amount .amounts {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+header .airtime-opt .form .amount .amounts .price {
+  width: 25%;
+  height: 37px;
+  padding-top: 10px;
+  background: #dadada1f;
+  border: 1px solid #dadada;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 12px;
+  color: #7a83a1;
+}
+
+header .airtime-opt .form .amount .amounts .picked {
+  width: 25%;
+  height: 37px;
+  padding-top: 10px;
+  background: #c53b9e1f;
+  border: 1px solid #c53b9f;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #c53b9f;
+}
+
+header .airtime-opt .form .amount .amounts :not(:last-child) {
+  margin-right: 10px;
+}
+
+header .airtime-opt .form .line-2 {
+  margin-bottom: 25px;
+}
+
+header .airtime-opt .form .line-2 p {
+  font-size: 12px;
+  color: #c5c7cf;
+}
+
+header .airtime-opt .form .line-2 .lines {
+  width: 90%;
+  height: 1px;
+  margin-top: 8px;
+  margin-left: 3px;
+  background-color: #0000001f;
+}
+
+header .data-opt {
+  height: auto;
+  margin-top: 46px;
+  padding-bottom: 70px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+header .data-opt .airtime {
+  width: 100%;
+  height: 64px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+header .data-opt .airtime .buy-airtime-1 {
+  width: 50%;
+  padding-top: 20px;
+  background: #c53b9e21;
+  color: #c53b9f;
+}
+
+header .data-opt .airtime .buy-data-1 {
+  width: 50%;
+  padding-top: 20px;
+  background: #ffffff;
+  border-top-left-radius: 10px;
+  color: #6123cc41;
+}
+
+header .data-opt .line {
+  height: 1px;
+  width: 100%;
+  background-color: #b3a9c521;
+}
+
+header .data-opt .select .select-text {
+  margin-top: 22px;
+}
+
+header .data-opt .select .select-text h6 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #6023cc;
+}
+
+header .data-opt .select__network .network-cards {
+  margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .data-opt .select__network .network-cards .network-card {
+  width: 47px;
+  height: 47px;
+  margin-right: 15px;
+}
+
+header .data-opt .select__network .network-cards .network-card img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+header .data-opt .select__network .network-cards .mtn {
+  background-color: #fdc528;
+  border-radius: 50%;
+}
+
+header .data-opt .form {
+  margin: 36px 29px 0;
+}
+
+header .data-opt .form__select {
+  position: relative;
+  height: 58px;
+  width: 100%;
+  margin-top: 52px;
+  border: 1px solid #b3a9c5;
+  border-radius: 5px;
+}
+
+header .data-opt .form__select select {
+  height: 100%;
+  width: 95%;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  color: #7a83a1 30%;
+}
+
+header .data-opt .form__select label {
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  padding: 6px;
+  background: #ffffff;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  color: #4c4079;
+}
+
+header .data-opt .form__input {
+  position: relative;
+  height: 58px;
+  width: 100%;
+  border: 1px solid #b3a9c5;
+  border-radius: 5px;
+}
+
+header .data-opt .form__input input {
+  height: 100%;
+  width: 83%;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  color: #7a83a1 30%;
+}
+
+header .data-opt .form__input label {
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  padding: 6px;
+  background: #ffffff;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  color: #4c4079;
+}
+
+header .data-opt .form__input img {
+  position: absolute;
+  top: 18px;
+  right: 16px;
+}
+
+header .btn {
+  width: 80%;
+  height: 60px;
+  margin: 30px 10% 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #5f22cb;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
